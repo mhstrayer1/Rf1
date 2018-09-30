@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\mhstr\.Rider2018.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\mhstr\.Rider2018.2\system\resharper-host\local\Transient\ReSharperHost\v182\SolutionCaches\_Rf1.719569588.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\rider\Rf1" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Rf1" t="IncludeRecursive">
+        <e p="App" t="Include">
+          <e p="App.cs" t="Include" />
+          <e p="CmdLineParser.cs" t="Include" />
+          <e p="ParseCombinerBlock.cs" t="Include" />
+          <e p="ParseFunctionBlock.cs" t="Include" />
+          <e p="ParseWorldBlock.cs" t="Include" />
+          <e p="ProcessInputFile.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Combiners" t="Include">
+          <e p="AddCombiner.cs" t="Include" />
+          <e p="Combiner.cs" t="Include" />
+          <e p="CombinerFactory.cs" t="Include" />
+          <e p="DivideCombiner.cs" t="Include" />
+          <e p="MultiplyCombiner.cs" t="Include" />
+          <e p="RandomCombiner.cs" t="Include" />
+          <e p="SubtractCombiner.cs" t="Include" />
+        </e>
+        <e p="Functions" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Parameters" t="Include">
+          <e p="Parameters.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Random" t="Include">
+          <e p="Gjrand.cs" t="Include" />
+          <e p="Jsf32.cs" t="Include" />
+          <e p="Jsf64.cs" t="Include" />
+          <e p="Rng.cs" t="Include" />
+          <e p="StaticRng.cs" t="Include" />
+        </e>
+        <e p="Rf1.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="Rf1.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
