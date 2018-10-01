@@ -1,4 +1,5 @@
 using System;
+using System.Net.NetworkInformation;
 using Rf1.Random;
 using static Rf1.Parameters.Parameters;
 
@@ -12,6 +13,35 @@ namespace Rf1.Combiners
       {
          _NumCombiners = (int) Combiner.Types.Random + 1;
       }
+
+      public static Combiner Create(int numTerms)
+      {
+         int isel = StaticRng.Rng.Next(0, _NumCombiners-1);
+         Combiner.Types iwant = (Combiner.Types) isel;
+         
+         switch (iwant)
+         {
+            case Combiner.Types.Add:
+               return new AddCombiner(numTerms);          
+            
+            case Combiner.Types.Divide:
+               return new DivideCombiner(numTerms);
+            
+            case Combiner.Types.Multiply :
+               return new MultiplyCombiner(numTerms);       
+            
+            case Combiner.Types.Random :
+               return new RandomCombiner(numTerms);
+            
+            case Combiner.Types.Subtract:
+               return new SubtractCombiner(numTerms);          
+            
+            default:
+               throw new InvalidOperationException("Invalid Combiner Type - Should never have gotten here");   
+         }
+      }
+      
+      
 
       public static Combiner Create()
       {

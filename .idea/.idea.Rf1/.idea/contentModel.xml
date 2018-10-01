@@ -24,8 +24,15 @@
           <e p="RandomCombiner.cs" t="Include" />
           <e p="SubtractCombiner.cs" t="Include" />
         </e>
-        <e p="Functions" t="Include" />
+        <e p="Functions" t="Include">
+          <e p="Function.cs" t="Include" />
+          <e p="RfAdd.cs" t="Include" />
+          <e p="RfDiv.cs" t="Include" />
+          <e p="RfMult.cs" t="Include" />
+          <e p="RfSub.cs" t="Include" />
+        </e>
         <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
         <e p="Parameters" t="Include">
           <e p="Parameters.cs" t="Include" />
         </e>

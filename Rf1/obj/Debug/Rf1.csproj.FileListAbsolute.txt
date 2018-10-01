@@ -4,3 +4,5 @@ D:\Projects\rider\Rf1\Rf1\obj\Debug\Rf1.csprojAssemblyReference.cache
 D:\Projects\rider\Rf1\Rf1\obj\Debug\Rf1.csproj.CoreCompileInputs.cache
 D:\Projects\rider\Rf1\Rf1\obj\Debug\Rf1.exe
 D:\Projects\rider\Rf1\Rf1\obj\Debug\Rf1.pdb
+D:\Projects\rider\Rf1\Rf1\bin\Debug\NCalc.dll
+D:\Projects\rider\Rf1\Rf1\obj\Debug\Rf1.csproj.CopyComplete

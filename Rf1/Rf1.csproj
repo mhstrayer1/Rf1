@@ -35,6 +35,10 @@
         <Prefer32bit>false</Prefer32bit>
     </PropertyGroup>
     <ItemGroup>
+        <Reference Include="NCalc, Version=1.3.8.0, Culture=neutral, PublicKeyToken=973cde3f1cafed03">
+            <HintPath>..\packages\ncalc.1.3.8\lib\NCalc.dll</HintPath>
+            <Private>True</Private>
+        </Reference>
         <Reference Include="System"/>
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
@@ -55,6 +59,11 @@
         <Compile Include="Combiners\MultiplyCombiner.cs"/>
         <Compile Include="Combiners\RandomCombiner.cs"/>
         <Compile Include="Combiners\SubtractCombiner.cs"/>
+        <Compile Include="Functions\Function.cs"/>
+        <Compile Include="Functions\RfAdd.cs"/>
+        <Compile Include="Functions\RfDiv.cs"/>
+        <Compile Include="Functions\RfMult.cs"/>
+        <Compile Include="Functions\RfSub.cs"/>
         <Compile Include="Parameters\Parameters.cs"/>
         <Compile Include="Program.cs"/>
         <Compile Include="Properties\AssemblyInfo.cs"/>
@@ -65,14 +74,14 @@
         <Compile Include="Random\StaticRng.cs"/>
     </ItemGroup>
     <ItemGroup>
-        <Folder Include="Functions"/>
+        <None Include="packages.config"/>
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-           Other similar extension points exist, see Microsoft.Common.targets.
-      <Target Name="BeforeBuild">
-      </Target>
-      <Target Name="AfterBuild">
-      </Target>
-      -->
+             Other similar extension points exist, see Microsoft.Common.targets.
+        <Target Name="BeforeBuild">
+        </Target>
+        <Target Name="AfterBuild">
+        </Target>
+        -->
 </Project>
